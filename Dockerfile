@@ -1,3 +1,3 @@
 FROM jpillora/chisel:latest
-EXPOSE 10000
-ENTRYPOINT ["chisel","server","--port","10000","--reverse","--auth","user:رمز-قوی"]
+EXPOSE 8080
+ENTRYPOINT ["chisel","server","--port","8080","--reverse","--auth","user:Mersa123@#"]
